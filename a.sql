@@ -43,4 +43,11 @@ CREATE TABLE ACTOR(
 UPDATE ACTOR 
 SET nameActor = 'Kun '
 WHERE age = 33 ; 
+--- tìm nhân viên lớn hơn 50 tuổi 
+use a
+SELECT nameActor,age, average, nationality from ACTOR  where age > 50 ;
+
+--- sap xep 
+select * from ACTOR 
+ORDER BY average 
  
